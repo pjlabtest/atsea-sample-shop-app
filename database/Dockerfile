@@ -1,5 +1,6 @@
 FROM postgres
 
+# Testing Dockerfile..
 # Copy the database initialize script: 
 # Contents of /docker-entrypoint-initdb.d are run on startup
 RUN mkdir -p /images/
