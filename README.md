@@ -39,22 +39,18 @@ To run the AtSea shop as an application:
 ```
 docker-compose up --build
 ```
-
 ## Deploy to a swarm
 ```
 #If you need to create a Swarm
 docker swarm init
 docker stack deploy -c docker-stack.yml atsea
 ```
-
 ## A simplified development environment
 This compose file creates a simplified development environment consisting of only the application server and the database.
 
 ```
 docker-compose --file docker-compose-dev.yml up --build
 ```
-
-
 
 ## The AtSea Shop 
 
